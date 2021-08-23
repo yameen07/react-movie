@@ -5,9 +5,27 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color:darkblue;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.moviep {
+  width: 30%;
+  margin: 1rem;
+  background-color:lightblue;
+}
+
+.moviep img {
+  max-width : 100%;
+
+}
+
+.movie-container{
+  display: flex;
+  flex-wrap: wrap;
+
 }
